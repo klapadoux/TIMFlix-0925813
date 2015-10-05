@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		402C68961BC30E4900287CBD /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402C68951BC30E4900287CBD /* Intro.swift */; };
 		402C68981BC30E7100287CBD /* DetailVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402C68971BC30E7100287CBD /* DetailVideo.swift */; };
-		B58C4FC11976ECFD00F6B1E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C4FC01976ECFD00F6B1E2 /* AppDelegate.swift */; };
+		402C689A1BC3149200287CBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402C68991BC3149200287CBD /* AppDelegate.swift */; };
 		B58C4FC31976ECFD00F6B1E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C4FC21976ECFD00F6B1E2 /* ViewController.swift */; };
 		B58C4FC61976ECFD00F6B1E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58C4FC41976ECFD00F6B1E2 /* Main.storyboard */; };
 		B58C4FC81976ECFD00F6B1E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58C4FC71976ECFD00F6B1E2 /* Images.xcassets */; };
@@ -849,9 +849,9 @@
 /* Begin PBXFileReference section */
 		402C68951BC30E4900287CBD /* Intro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
 		402C68971BC30E7100287CBD /* DetailVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVideo.swift; sourceTree = "<group>"; };
+		402C68991BC3149200287CBD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B58C4FBB1976ECFD00F6B1E2 /* TIMFLIX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TIMFLIX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58C4FBF1976ECFD00F6B1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B58C4FC01976ECFD00F6B1E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B58C4FC21976ECFD00F6B1E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B58C4FC51976ECFD00F6B1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B58C4FC71976ECFD00F6B1E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -1719,9 +1719,9 @@
 		B58C4FBD1976ECFD00F6B1E2 /* TIMFLIX */ = {
 			isa = PBXGroup;
 			children = (
+				402C68991BC3149200287CBD /* AppDelegate.swift */,
 				B58C56481976EEC800F6B1E2 /* Mes classes */,
 				B58C4FDD1976EE0000F6B1E2 /* images */,
-				B58C4FC01976ECFD00F6B1E2 /* AppDelegate.swift */,
 				B58C4FC41976ECFD00F6B1E2 /* Main.storyboard */,
 				B58C4FC71976ECFD00F6B1E2 /* Images.xcassets */,
 				B58C4FBE1976ECFD00F6B1E2 /* Supporting Files */,
@@ -3526,8 +3526,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402C689A1BC3149200287CBD /* AppDelegate.swift in Sources */,
 				B58C4FC31976ECFD00F6B1E2 /* ViewController.swift in Sources */,
-				B58C4FC11976ECFD00F6B1E2 /* AppDelegate.swift in Sources */,
 				402C68981BC30E7100287CBD /* DetailVideo.swift in Sources */,
 				402C68961BC30E4900287CBD /* Intro.swift in Sources */,
 			);
