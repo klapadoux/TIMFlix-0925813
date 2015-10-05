@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		402C68961BC30E4900287CBD /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402C68951BC30E4900287CBD /* Intro.swift */; };
+		402C68981BC30E7100287CBD /* DetailVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402C68971BC30E7100287CBD /* DetailVideo.swift */; };
 		B58C4FC11976ECFD00F6B1E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C4FC01976ECFD00F6B1E2 /* AppDelegate.swift */; };
 		B58C4FC31976ECFD00F6B1E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C4FC21976ECFD00F6B1E2 /* ViewController.swift */; };
 		B58C4FC61976ECFD00F6B1E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58C4FC41976ECFD00F6B1E2 /* Main.storyboard */; };
@@ -845,6 +847,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		402C68951BC30E4900287CBD /* Intro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
+		402C68971BC30E7100287CBD /* DetailVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVideo.swift; sourceTree = "<group>"; };
 		B58C4FBB1976ECFD00F6B1E2 /* TIMFLIX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TIMFLIX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58C4FBF1976ECFD00F6B1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B58C4FC01976ECFD00F6B1E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -2597,6 +2601,8 @@
 			isa = PBXGroup;
 			children = (
 				B58C4FC21976ECFD00F6B1E2 /* ViewController.swift */,
+				402C68951BC30E4900287CBD /* Intro.swift */,
+				402C68971BC30E7100287CBD /* DetailVideo.swift */,
 			);
 			name = "Mes classes";
 			sourceTree = "<group>";
@@ -3522,6 +3528,8 @@
 			files = (
 				B58C4FC31976ECFD00F6B1E2 /* ViewController.swift in Sources */,
 				B58C4FC11976ECFD00F6B1E2 /* AppDelegate.swift in Sources */,
+				402C68981BC30E7100287CBD /* DetailVideo.swift in Sources */,
+				402C68961BC30E4900287CBD /* Intro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
